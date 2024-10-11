@@ -17,7 +17,7 @@
             <th>Price</th>
             <th>Actions</th>
         </tr>
-        </thead>
+
         <tbody>
         <tr th:each="item : ${listItems}">
             <td th:text="${item.name}"></td>
@@ -29,6 +29,7 @@
             </td>
         </tr>
         </tbody>
+        </thead>
     </table>
 </div>
 </body>
