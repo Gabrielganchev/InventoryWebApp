@@ -22,6 +22,7 @@ dependencies {
 
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
+	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 
 	runtimeOnly("com.h2database:h2")
 
